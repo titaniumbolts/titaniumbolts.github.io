@@ -62,7 +62,7 @@ table {
   padding-left: 0;
 }
 h1 {
-	color: #10CAB7;
+	color: #FF8C00;
 	font-size: 38px;
 	font-weight: 800;
 	letter-spacing: -0.1rem;
@@ -108,7 +108,7 @@ a {
 		font-weight: 400;
 	}
 a:hover {
-		color: #10CAB7;
+		color: #FF8C00;
 		text-decoration: none;
 	}
 /* Navbar */
@@ -188,7 +188,7 @@ nav ul li {
 .square i {
 	font-size: 45px;
 	padding: 60px 0px 30px 0px;
-	color: #10CAB7;
+	color: #FF8C00;
 }
 .square h4 {
 	padding-bottom: 10px;
@@ -213,7 +213,7 @@ nav ul li {
 }
 .service-text i {
 	font-size: 35px;
-	color: #10CAB7;
+	color: #FF8C00;
 	float: left;
 }
 .service-text h4 {
@@ -296,7 +296,7 @@ a.button2 {
 	box-shadow: rgba(44, 71, 85, 0.9) 0 0px 0px 1px inset;
 }
 a.button2:hover {
-	color: #10CAB7;
+	color: #FF8C00;
 	box-shadow: rgba(44, 71, 85, 1) 0 80px 0px 1px inset;
 }
 /* Hiden Gallery */
@@ -335,7 +335,7 @@ a.button2:hover {
 .separator {
 	width: 200px;
 	height: 2px;
-	background-color: #10CAB7;
+	background-color: #FF8C00;
 	margin-bottom: 15px;
 }
 .shape-about {
@@ -345,7 +345,7 @@ a.button2:hover {
 	height: 300px;
 }
 .shape-l {
-	background-color: #10CAB7;
+	background-color: #FF8C00;
 	right: 120px;
 	width: 70px;
 	top:20px;
@@ -383,7 +383,7 @@ a.button2:hover {
 	font-size: 17px;
 }
 .contact-info i:hover {
-	color: #10CAB7;
+	color: #FF8C00;
 }
 .contact-info ul li {
 	display: inline;
@@ -406,7 +406,7 @@ a.button2:hover {
 	padding-top: 5px;
 }
 .footer span {
-	color: #10CAB7;
+	color: #FF8C00;
 }
 /* Responsive Styling */
 @media only screen and (max-width: 570px) and (min-width: 320px)  {

@@ -9,6 +9,15 @@
     right: 0px;
 }
 
+#upbutton_wrap-inner {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    float: right !important;
+}
+
 /*
 #upbutton {
     background: url("/img/up5.png") no-repeat top left;

@@ -5,13 +5,16 @@ window.onload = function () {
                         setTimeout(smoothJumpUp, 10);
                 }
         };
+        
+        document.getElementById('upbutton').style.display = 'block';
+        
 }
     
-window.onscroll = function() {
+/* window.onscroll = function() {
         var scrolled = window.pageYOffset || document.documentElement.scrollTop;
         if (scrolled > 100) {
                 document.getElementById('upbutton').style.display = 'block';
         } else {
                 document.getElementById('upbutton').style.display = 'none';
         }
-}
+} */

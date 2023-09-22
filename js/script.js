@@ -1,7 +1,7 @@
 window.onload = function () {
         document.getElementById('upbutton').onclick = function smoothJumpUp() {
                 if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-                        window.scrollBy(0,-50);
+                        window.scrollBy(0,-500);
                         setTimeout(smoothJumpUp, 10);
                 }
         };

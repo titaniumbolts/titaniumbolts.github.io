@@ -55,11 +55,11 @@ $(document).ready(function() {
        // This is necessary so you never see what is "behind" the navbar.
        if (st > lastScrollTop && st > navbarHeight){
            // Scroll Down
-           $('#MagicMenu').fadeOut(500);
+           //$('#MagicMenu').fadeOut(500);
        } else {
            // Scroll Up
            if(st + $(window).height() < $(document).height()) {
-               $('#MagicMenu').fadeIn(500);
+               //$('#MagicMenu').fadeIn(500);
            }
        }
        lastScrollTop = st;

@@ -1,9 +1,8 @@
 window.onload = function () {
         var smoothJumpUp = function() {
-                //if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-                       // window.scrollBy(0,-50);
-                window.pageYOffset = 0;
-                setTimeout(smoothJumpUp, 10);
+                if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+                        window.scrollBy(0,-50);
+                        setTimeout(smoothJumpUp, 10);
                 }
         }
 }

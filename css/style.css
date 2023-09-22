@@ -1,3 +1,14 @@
+#upbutton_wrap {
+    width: 100%;
+    height: 80px;
+    margin-top: -1px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    bottom: 0px;
+    right: 0px;
+}
+
 #upbutton {
     background: url("/img/up5.png") no-repeat top left;
     height: 36px;

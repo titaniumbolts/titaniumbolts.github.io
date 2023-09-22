@@ -1,6 +1,6 @@
 //window.onload = function () {
         
-        document.getElementById('upbutton').style.display = 'block';
+        //document.getElementById('upbutton').style.display = 'block';
         
         document.getElementById('upbutton').onclick = function smoothJumpUp() {
                 if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {

@@ -1,4 +1,4 @@
-window.onload = function () {
+//window.onload = function () {
         
         document.getElementById('upbutton').style.display = 'block';
         
@@ -8,7 +8,7 @@ window.onload = function () {
                         setTimeout(smoothJumpUp, 10);
                 }
         };
-}
+//}
     
 /* window.onscroll = function() {
         var scrolled = window.pageYOffset || document.documentElement.scrollTop;

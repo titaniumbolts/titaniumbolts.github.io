@@ -1,4 +1,7 @@
 window.onload = function () {
+        document.getElementById('upbutton').onclick = function(smoothJumpUp) {
+                
+        };
         var smoothJumpUp = function() {
                 if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
                         window.scrollBy(0,-50);

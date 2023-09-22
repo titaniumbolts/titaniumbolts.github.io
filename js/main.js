@@ -17,6 +17,9 @@ $(document).ready(function() {
            }, 900, 'swing', function() {
              window.location.hash = target;
            });
+
+           $('nav').toggleClass('nav-hide')
+              
          });
 // Extra Portfolio Gallery
           $(".show-more-btn").click(function () {

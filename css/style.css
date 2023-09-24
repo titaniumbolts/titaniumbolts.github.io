@@ -42,3 +42,12 @@
     z-index: 999;
   }
 */
+
+.hero {
+	display: flex;
+	height: 100vh;
+}
+
+.hero_inner {
+	margin: auto;
+}

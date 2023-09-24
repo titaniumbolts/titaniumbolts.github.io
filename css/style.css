@@ -44,10 +44,10 @@
 */
 
 .hero {
-	display: flex;
+	display: table;
 	height: 100vh;
 }
 
 .hero_inner {
-	margin: auto;
+	display: table-cell;
 }

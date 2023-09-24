@@ -42,12 +42,3 @@
     z-index: 999;
   }
 */
-
-.hero {
-	display: table;
-	height: 100vh;
-}
-
-.hero_inner {
-	display: table-cell;
-}

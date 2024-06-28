@@ -63,7 +63,8 @@ table {
 }
 h1 {
 	color: #FFA500;
-	font-size: 38px;
+	/*font-size: 38px;*/
+	font-size: 28px;
 	font-weight: 800;
 	letter-spacing: -0.1rem;
 }

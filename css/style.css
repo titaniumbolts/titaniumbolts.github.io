@@ -1,0 +1,77 @@
+@media all and (orientation:portrait) {
+
+	#upbutton_wrap, #upbutton_wrap-inner {
+        display: none;
+    }
+
+    .vid {
+        width: 100%;
+        /* height: 85vh; */
+        margin: 0 auto;
+        text-align: center;
+
+        padding: 15px;
+    }
+
+    .link_vid {
+        color: black;
+    }
+
+}
+@media all and (orientation:landscape) {
+
+	#upbutton_wrap, #upbutton_wrap-inner {
+        display: block;
+    }
+
+    .vid {
+        width: calc(85%);
+        height: 85vh;
+        margin: 0 auto;
+        text-align: center;
+
+        padding: 25px;
+    }
+
+    .link_vid {
+        color: black;
+    }
+}
+
+#upbutton_wrap {
+    width: 100%;
+    height: 80px;
+    margin-top: -1px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    bottom: 0px;
+    right: 0px;
+}
+
+#upbutton_wrap-inner {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    float: right !important;
+}
+
+/*
+#upbutton {
+    background: url("/img/up5.png") no-repeat top left;
+    height: 36px;
+    width: 63px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+  }
+*/
+
+h2 {
+	margin-bottom: auto;
+}
